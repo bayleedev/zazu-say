@@ -1,24 +1,17 @@
-## Zazu Pibble
-
-> **pibble** - the more refined and less aggressive form of pit bull. a kinder,
-gentler term that better reflects the true nature of these great friends.
->
-> [Urban Dictionary](http://www.urbandictionary.com/define.php?term=pibble)
+## Zazu Say
 
 ## Installing
 
-Add `blainesch/zazu-pibble` inside of `plugins` block of your  `~/.zazurc.json` file.
+Add `blainesch/zazu-say` inside of `plugins` block of your  `~/.zazurc.json` file.
 
 ~~~ json
 {
   "plugins": [
-    "blainesch/zazu-pibble"
+    "blainesch/zazu-say"
   ]
 }
 ~~~
 
 ## Usage
 
-Type in `pibble`:
-
-![screenshot](./screenshot.png)
+Type in `say` then the message. For example `say hello` would work.

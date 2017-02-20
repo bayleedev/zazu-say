@@ -1,21 +1,22 @@
 {
-  "name": "zazu-pibble",
-  "description": "Get moar pibbles",
-  "stylesheet": "./dist/style.css",
+  "name": "zazu-say",
   "blocks": {
     "input": [
       {
-        "id": "pibble",
-        "type": "RootScript",
-        "script": "pibble.js",
-        "connections": ["Open"]
+        "id": "say",
+        "type": "PrefixScript",
+        "prefix": "say",
+        "space": true,
+        "args": "Required",
+        "script": "say.js",
+        "connections": ["Show"]
       }
     ],
     "output": [
       {
-        "id": "Open",
-        "type": "OpenInBrowser",
-        "url": "{value}"
+        "id": "Show",
+        "type": "Preview",
+        "message": "I said: {value}"
       }
     ]
   }
